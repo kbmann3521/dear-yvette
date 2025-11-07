@@ -9,7 +9,27 @@ const cuteGreetings = [
     "You deserve to smile",
     "You're incredibly special",
     "The universe loves you",
-    "You make everything better"
+    "You make everything better",
+    "I can't stop thinking about you",
+    "You're the most beautiful person I know",
+    "Every moment with you is a gift",
+    "My heart smiles when I see you",
+    "You're my favorite hello",
+    "Life is better with you in it",
+    "You complete me",
+    "I fall in love with you every day",
+    "You're my greatest adventure",
+    "My soul loves yours",
+    "You're my reason for everything",
+    "Being with you feels like home",
+    "You make my heart race",
+    "I cherish every second with you",
+    "You're the answer to my prayers",
+    "My love for you grows every day",
+    "You're irreplaceable and perfect",
+    "Your smile is my favorite thing",
+    "You're my greatest blessing",
+    "Every day with you is a dream come true"
 ];
 
 const allStats = [
@@ -78,7 +98,17 @@ const compliments = [
     "You're the best version of yourself every day",
     "Your honesty is refreshing",
     "You're the whole package",
-    "You matter so much to people"
+    "You matter so much to people",
+    "The way you see the good in everyone is beautiful",
+    "You make even mundane moments feel special",
+    "Your eyes tell a thousand kind stories",
+    "You have a way of making people feel truly seen",
+    "Your laugh is my favorite sound",
+    "You're the kind of person that makes the world gentler",
+    "Your presence is a gift I never take for granted",
+    "You have a gift for making people feel safe",
+    "Your mind is as beautiful as your heart",
+    "You inspire me to be better every single day"
 ];
 
 const cuddles = [
@@ -111,7 +141,16 @@ const cuddles = [
     { emoji: "🎶", message: "Comfortable silence cuddles" },
     { emoji: "🏠", message: "Home is wherever you are cuddles" },
     { emoji: "❄️", message: "Warm cuddles on any day" },
-    { emoji: "🌻", message: "Bright and cheerful cuddles" }
+    { emoji: "🌻", message: "Bright and cheerful cuddles" },
+    { emoji: "🫀", message: "Cuddles straight from my heart to yours" },
+    { emoji: "☕", message: "Cozy warm cuddles with your favorite drink" },
+    { emoji: "🌊", message: "Peaceful cuddles like ocean waves" },
+    { emoji: "🦋", message: "Light and gentle cuddles" },
+    { emoji: "🎪", message: "Fun and playful cuddles" },
+    { emoji: "🌷", message: "Delicate and loving cuddles" },
+    { emoji: "🎭", message: "Cuddles that make everything better" },
+    { emoji: "✨", message: "Sparkly cuddles filled with happiness" },
+    { emoji: "🌅", message: "Cuddles watching the sunrise together" }
 ];
 
 const gifts = [
@@ -145,7 +184,6 @@ const gifts = [
     { emoji: "✨", name: "All the sparkle and magic" },
     { emoji: "🎀", name: "A pretty pink bow" },
     { emoji: "🎁", name: "A surprise gift box" },
-    { emoji: "🎀", name: "Ribbons and bows" },
     { emoji: "👑", name: "A crown for my queen" },
     { emoji: "💎", name: "A sparkling diamond" },
     { emoji: "🌈", name: "A rainbow full of colors" },
@@ -157,14 +195,25 @@ const gifts = [
     { emoji: "🎸", name: "A beautiful guitar serenade" },
     { emoji: "🎭", name: "Front row seats to magic" },
     { emoji: "🌍", name: "The whole world on a platter" },
-    { emoji: "��", name: "A magical castle" },
+    { emoji: "🏰", name: "A magical castle" },
     { emoji: "🎢", name: "A thrilling adventure together" },
     { emoji: "🌟", name: "A wish upon a star" },
     { emoji: "💫", name: "All the dreams you have" },
     { emoji: "🔮", name: "A crystal ball showing your future" },
     { emoji: "🎯", name: "Endless possibilities" },
     { emoji: "🌸", name: "A garden of flowers" },
-    { emoji: "🦋", name: "Butterflies that bring joy" }
+    { emoji: "🦋", name: "Butterflies that bring joy" },
+    { emoji: "🎪", name: "Tickets to see your favorite artist" },
+    { emoji: "🍝", name: "A romantic dinner for two" },
+    { emoji: "☕", name: "Your favorite coffee or tea" },
+    { emoji: "🎬", name: "A cozy movie night" },
+    { emoji: "🎤", name: "A serenade just for you" },
+    { emoji: "📱", name: "A photo album of us" },
+    { emoji: "✈️", name: "A trip to your dream destination" },
+    { emoji: "🏖️", name: "A beach day adventure" },
+    { emoji: "🎿", name: "A mountain getaway" },
+    { emoji: "🧩", name: "Adventures and new memories" },
+    { emoji: "📸", name: "A moment frozen in time" }
 ];
 
 const affirmations = [
@@ -214,7 +263,22 @@ const affirmations = [
     "You bring light to the darkest days",
     "You are enough as you are",
     "Your journey is valid and important",
-    "You deserve to celebrate your wins"
+    "You deserve to celebrate your wins",
+    "I am proud of the person you are",
+    "Your past does not define your future",
+    "You are allowed to be proud of yourself",
+    "You have so much to offer the world",
+    "Your health and well-being are priorities",
+    "You are a work of art in progress",
+    "You deserve love unconditionally",
+    "Your mistakes are opportunities to grow",
+    "You are allowed to take care of yourself first",
+    "You are capable of changing your life",
+    "Your peace of mind matters",
+    "You are worthy of respect and admiration",
+    "You deserve all the support you need",
+    "You are becoming the best version of yourself",
+    "Your goals are achievable"
 ];
 
 const breathingMessages = [
@@ -232,7 +296,22 @@ const breathingMessages = [
     "Your body knows how to heal.",
     "Be gentle with yourself.",
     "You are doing amazing.",
-    "Breathe in courage, breathe out fear."
+    "Breathe in courage, breathe out fear.",
+    "Each breath is a fresh beginning.",
+    "You are in control of your breath.",
+    "Breathing is your superpower.",
+    "You are calm and grounded.",
+    "I'm right here with you.",
+    "Your peace matters.",
+    "You've overcome harder things.",
+    "This moment is temporary.",
+    "You deserve stillness.",
+    "Breathe through it, you're okay.",
+    "You are stronger than you know.",
+    "This anxiety doesn't define you.",
+    "You can do this, one breath at a time.",
+    "Your mind is clearing with each breath.",
+    "You are becoming more centered."
 ];
 
 const jokes = [
@@ -243,7 +322,7 @@ const jokes = [
     { setup: "Why did the cookie go to the doctor?", punchline: "Because it felt crumbly! 🍪" },
     { setup: "What do you call a sleeping bull?", punchline: "A bulldozer! 😴" },
     { setup: "Why did the coffee file a police report?", punchline: "It got mugged! ☕" },
-    { setup: "What's the best thing about Switzerland?", punchline: "I don't know, but the flag is a big plus! ������" },
+    { setup: "What's the best thing about Switzerland?", punchline: "I don't know, but the flag is a big plus! 🇨🇭" },
     { setup: "Why did the tomato turn red?", punchline: "Because it saw the salad dressing! 🥗" },
     { setup: "What do you call a bear with no teeth?", punchline: "A gummy bear! 🐻" },
     { setup: "Why don't eggs tell jokes?", punchline: "They'd crack each other up! 🥚" },
@@ -262,10 +341,20 @@ const jokes = [
     { setup: "Why don't oysters share their pearls?", punchline: "Because they're shellfish! 🦪" },
     { setup: "What do you call a boomerang that doesn't come back?", punchline: "A stick! 🎯" },
     { setup: "Why did the toilet paper roll down the hill?", punchline: "To get to the bottom! 🧻" },
-    { setup: "What's the best thing about Switzerland?", punchline: "The flag is a big plus! 🇨🇭" },
     { setup: "Why did the banana go to the doctor?", punchline: "Because it wasn't peeling well! 🍌" },
     { setup: "What do you call a fish wearing a bowtie?", punchline: "Sofishticated! 🐟" },
-    { setup: "Why don't you ever see elephants hiding in trees?", punchline: "Because they're so good at it! 🐘" }
+    { setup: "Why don't you ever see elephants hiding in trees?", punchline: "Because they're so good at it! 🐘" },
+    { setup: "What do you call an alligator in a vest?", punchline: "An investigator! 🐊" },
+    { setup: "Why did the cookie go to school?", punchline: "Because it wanted to get a little batter! 🍪" },
+    { setup: "What's a computer's favorite snack?", punchline: "Microchips! 💻" },
+    { setup: "Why did the picture go to jail?", punchline: "Because it was framed! 🖼️" },
+    { setup: "What do you call a snowman in summer?", punchline: "A puddle! ☀️" },
+    { setup: "Why don't eggs make jokes?", punchline: "They'd crack up! 🥚" },
+    { setup: "What do you call a lazy kangaroo?", punchline: "Poached! 🦘" },
+    { setup: "Why did the kid bring a ladder to school?", punchline: "Because he wanted to go to high school! 🪜" },
+    { setup: "What's the difference between a pickle and a psychiatrist?", punchline: "One is a cucumber in vinegar, the other listens to your problems! 🥒" },
+    { setup: "Why don't scientists trust atoms?", punchline: "Because they make up everything! ⚛️" },
+    { setup: "What did the ocean say to the beach?", punchline: "Can I keep some memories? 🏖️" }
 ];
 
 const fortunes = [
@@ -315,7 +404,17 @@ const fortunes = [
     "The universe believes in you, so believe in yourself 🌌",
     "Your story is just beginning ✨",
     "Everything happens for your highest good 🌈",
-    "You are the author of your own destiny 📝"
+    "You are the author of your own destiny 📝",
+    "Happiness is closer than you think 🌟",
+    "Your best days are still ahead of you 🎆",
+    "The world needs what you have to offer 💎",
+    "Your moment of triumph is coming 👑",
+    "Dream big - you have everything you need 🌠",
+    "Every sunset brings a new sunrise 🌅",
+    "You are creating magic with your presence 💫",
+    "The best investment is in yourself ✨",
+    "Your impact on the world is greater than you know 🌍",
+    "Wonderful things are unfolding for you 🌸"
 ];
 
 const crackBackMessages = [
@@ -334,7 +433,15 @@ const crackBackMessages = [
     { emoji: "🔄", message: "You in my arms = instant comfort and adjustment magic ✨💕" },
     { emoji: "🔄", message: "Gentle lift, satisfying snap - your favorite thing 😌" },
     { emoji: "🔄", message: "Let's get that spine feeling grateful 🙏💚" },
-    { emoji: "🔄", message: "The best hug is one that also cracks your back 🤗🔄" }
+    { emoji: "🔄", message: "The best hug is one that also cracks your back 🤗🔄" },
+    { emoji: "🔄", message: "My favorite part of my day is lifting you and hearing that pop 💕" },
+    { emoji: "🔄", message: "Chiropractor Kyle is in the house 😄" },
+    { emoji: "🔄", message: "Time for some therapeutic goodness 🌟" },
+    { emoji: "🔄", message: "Here comes that satisfying realignment 💫" },
+    { emoji: "🔄", message: "Your favorite kind of therapy doesn't cost a thing 💖" },
+    { emoji: "🔄", message: "Feeling the release of all that tension ✨" },
+    { emoji: "🔄", message: "Love in action - literally 💪💕" },
+    { emoji: "🔄", message: "My favorite way to show you I care 🫂" }
 ];
 
 // DOM Elements
@@ -361,6 +468,28 @@ const crackBackBtn = document.getElementById('crackBackBtn');
 
 // Love Meter Tracking
 let loveLevel = 0;
+
+// Track last shown items to avoid repeats
+let lastComplimentIndex = -1;
+let lastCuddleIndex = -1;
+let lastGiftIndex = -1;
+let lastAffirmationIndex = -1;
+let lastJokeIndex = -1;
+let lastBreathingMessageIndex = -1;
+let lastFortuneIndex = -1;
+let lastCrackBackIndex = -1;
+
+// Helper function to get a random item that's different from the last one
+function getRandomDifferent(array, lastIndex) {
+    if (array.length <= 1) return { index: 0, item: array[0] };
+
+    let newIndex;
+    do {
+        newIndex = Math.floor(Math.random() * array.length);
+    } while (newIndex === lastIndex);
+
+    return { index: newIndex, item: array[newIndex] };
+}
 
 function updateLoveMeter() {
     loveLevel = Math.min(loveLevel + 20, 100);
@@ -396,7 +525,7 @@ function createFloatingHearts() {
     const container = document.getElementById('floatingHeartsContainer');
     if (!container) return;
 
-    const hearts = ['💕', '💖', '💗', '💝', '✨', '🌸', '⭐', '🌟', '💫', '🌺', '🌷', '🌹', '🦋', '🐝', '🌻', '🎀', '🎁', '💐', '🌙', '☁️', '🌈', '🧸', '💝', '🎀'];
+    const hearts = ['🌸', '🌺', '🌷', '🌹', '🌻', '🌼', '🏵️', '🌿', '🦋', '🐝', '🐞', '🦗', '🦆', '🦉', '🐦', '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🦎', '🦜', '🦚', '🐢', '🐛', '🐿️', '🦭', '🦦', '🦛', '🦏', '🐘', '🦍', '🐵', '🦁', '🐯', '🦙', '🦒', '🐫', '🧸', '☁️', '🌙', '🌈', '🎀', '🎁'];
 
     for (let i = 0; i < 8; i++) {
         const heart = document.createElement('div');
@@ -422,7 +551,7 @@ function createFloatingHearts() {
 
 // Confetti effect
 function createConfetti(x, y) {
-    const confettiPieces = ['💕', '✨', '🎉', '💖', '🌸', '💝', '⭐', '🌟', '💫', '🌺', '🎀', '🦋', '🌷', '🌹'];
+    const confettiPieces = ['🎉', '🌸', '🌺', '🎀', '🦋', '🌷', '🌹', '🌻', '🌼', '🐝', '🐞', '🦆', '🎁', '🌙', '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🐢', '🦭'];
 
     for (let i = 0; i < 8; i++) {
         const confetti = document.createElement('div');
@@ -449,8 +578,18 @@ function createConfetti(x, y) {
 
 // Initialize
 function init() {
+    let greetingIndex = 0;
     const randomGreeting = cuteGreetings[Math.floor(Math.random() * cuteGreetings.length)];
     greetingElement.textContent = randomGreeting;
+
+    // Rotate greeting with calming fade animation every 8 seconds
+    function cycleGreeting() {
+        greetingIndex = (greetingIndex + 1) % cuteGreetings.length;
+        greetingElement.textContent = cuteGreetings[greetingIndex];
+    }
+
+    cycleGreeting();
+    setInterval(cycleGreeting, 8000);
 
     createFloatingHearts();
 
@@ -560,33 +699,38 @@ function showModalContent(html) {
 
 // Dashboard Actions
 function showCompliment() {
-    const randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
+    const result = getRandomDifferent(compliments, lastComplimentIndex);
+    lastComplimentIndex = result.index;
     showModalContent(`
         <h3 style="color: #d4407a; font-size: 1.3em; margin-bottom: 20px;">For you 💕</h3>
-        <p class="compliment-text">"${randomCompliment}"</p>
+        <p class="compliment-text">"${result.item}"</p>
         <p style="color: #999; font-size: 0.9em; margin-top: 20px;">You deserve to hear this and so much more ✨</p>
     `);
 }
 
 function showCuddle() {
-    const randomCuddle = cuddles[Math.floor(Math.random() * cuddles.length)];
+    const result = getRandomDifferent(cuddles, lastCuddleIndex);
+    lastCuddleIndex = result.index;
     showModalContent(`
-        <div class="cuddle-display">${randomCuddle.emoji}</div>
-        <p class="cuddle-text">${randomCuddle.emoji} ${randomCuddle.message}</p>
+        <div class="cuddle-display">${result.item.emoji}</div>
+        <p class="cuddle-text">${result.item.emoji} ${result.item.message}</p>
     `);
 }
 
 function showGift() {
-    const randomGift = gifts[Math.floor(Math.random() * gifts.length)];
+    const result = getRandomDifferent(gifts, lastGiftIndex);
+    lastGiftIndex = result.index;
     showModalContent(`
         <h3 style="color: #d4407a; margin-bottom: 20px;">A gift for you 💝</h3>
-        <div class="gift-display">${randomGift.emoji}</div>
-        <p class="gift-text">${randomGift.name}</p>
+        <div class="gift-display">${result.item.emoji}</div>
+        <p class="gift-text">${result.item.name}</p>
         <p style="color: #999; font-size: 0.9em; margin-top: 20px;">Because you deserve beautiful things 💕</p>
     `);
 }
 
 function showAffirmations() {
+    const result = getRandomDifferent(affirmations, lastAffirmationIndex);
+    lastAffirmationIndex = result.index;
     const shuffledAffirmations = affirmations.sort(() => Math.random() - 0.5).slice(0, 5);
     const affirmationHTML = shuffledAffirmations.map(aff => `
         <div class="affirmation-card">
@@ -603,16 +747,19 @@ function showAffirmations() {
 }
 
 function showJoke() {
-    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+    const result = getRandomDifferent(jokes, lastJokeIndex);
+    lastJokeIndex = result.index;
     showModalContent(`
         <h3 style="color: #d4407a; margin-bottom: 20px;">A joke for you! 😄</h3>
-        <p style="font-size: 1.2em; color: #333; margin-bottom: 20px; font-weight: 500;">${randomJoke.setup}</p>
-        <p style="font-size: 1.1em; color: #ff6b9d; font-weight: 600;">${randomJoke.punchline}</p>
+        <p style="font-size: 1.2em; color: #333; margin-bottom: 20px; font-weight: 500;">${result.item.setup}</p>
+        <p style="font-size: 1.1em; color: #ff6b9d; font-weight: 600;">${result.item.punchline}</p>
         <p style="color: #999; font-size: 0.9em; margin-top: 25px;">Hope that made you smile! 💕</p>
     `);
 }
 
 function showBreathingExercise() {
+    const result = getRandomDifferent(breathingMessages, lastBreathingMessageIndex);
+    lastBreathingMessageIndex = result.index;
     showModalContent(`
         <h3 style="color: #d4407a; margin-bottom: 10px;">Breathing Exercise 🧘</h3>
         <p style="color: #999; font-size: 0.95em; margin-bottom: 30px;">Take your time, there's no rush. Follow along at your own pace.</p>
@@ -667,21 +814,23 @@ function startBreathingAnimation() {
 }
 
 function showFortune() {
-    const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+    const result = getRandomDifferent(fortunes, lastFortuneIndex);
+    lastFortuneIndex = result.index;
     showModalContent(`
         <h3 style="color: #d4407a; margin-bottom: 20px;">Your Fortune 🎴</h3>
         <div style="background: linear-gradient(135deg, #fff5f7 0%, #ffe4f0 100%); padding: 25px; border-radius: 15px; border-left: 4px solid #ff6b9d;">
-            <p style="color: #333; font-size: 1.15em; line-height: 1.7; font-weight: 500;">"${randomFortune}"</p>
+            <p style="color: #333; font-size: 1.15em; line-height: 1.7; font-weight: 500;">"${result.item}"</p>
         </div>
         <p style="color: #999; font-size: 0.9em; margin-top: 20px;">✨ Believe in the magic within you</p>
     `);
 }
 
 function showCrackBack() {
-    const randomCrackBack = crackBackMessages[Math.floor(Math.random() * crackBackMessages.length)];
+    const result = getRandomDifferent(crackBackMessages, lastCrackBackIndex);
+    lastCrackBackIndex = result.index;
     showModalContent(`
-        <div class="crack-back-display">${randomCrackBack.emoji}</div>
-        <p class="crack-back-text">${randomCrackBack.emoji} ${randomCrackBack.message}</p>
+        <div class="crack-back-display">${result.item.emoji}</div>
+        <p class="crack-back-text">${result.item.emoji} ${result.item.message}</p>
         <p style="color: #999; font-size: 0.9em; margin-top: 20px;">Ahhh, that's better 😌</p>
     `);
 }
