@@ -127,7 +127,7 @@ const gifts = [
     { emoji: "🐰", name: "A fluffy bunny" },
     { emoji: "🦋", name: "A beautiful butterfly" },
     { emoji: "🦄", name: "A magical unicorn" },
-    { emoji: "���", name: "A majestic dragon" },
+    { emoji: "🐉", name: "A majestic dragon" },
     { emoji: "🦢", name: "A graceful swan" },
     { emoji: "❤️", name: "All my love for you" },
     { emoji: "💝", name: "A gift wrapped with love" },
@@ -253,7 +253,7 @@ const jokes = [
     { setup: "Why did the math book look sad?", punchline: "Because it had too many problems! 📚" },
     { setup: "What do you call a dinosaur that crashes his car?", punchline: "Tyrannosaurus Wrecks! 🦖" },
     { setup: "Why don't skeletons fight each other?", punchline: "They don't have the guts! 💀" },
-    { setup: "What's orange and sounds like a parrot?", punchline: "A carrot! ��" },
+    { setup: "What's orange and sounds like a parrot?", punchline: "A carrot! 🥕" },
     { setup: "Why did the chicken go to the séance?", punchline: "To talk to the other side! 🐔" },
     { setup: "What did the ocean do to the other ocean?", punchline: "It waved again! 🌊" },
     { setup: "How do you organize a space party?", punchline: "You planet! 🚀" },
@@ -379,7 +379,7 @@ function createFloatingHearts() {
     const container = document.getElementById('floatingHeartsContainer');
     if (!container) return;
 
-    const hearts = ['💕', '💖', '💗', '💝', '✨', '🌸'];
+    const hearts = ['💕', '💖', '💗', '💝', '✨', '🌸', '⭐', '🌟', '💫', '🌺', '🌷', '🌹', '🦋', '🐝', '🌻', '🎀', '🎁', '💐', '🌙', '☁️', '🌈', '🧸', '💝', '🎀'];
 
     for (let i = 0; i < 8; i++) {
         const heart = document.createElement('div');
@@ -387,7 +387,7 @@ function createFloatingHearts() {
         heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
         heart.style.left = Math.random() * 100 + '%';
         heart.style.animationDelay = Math.random() * 2 + 's';
-        heart.style.animationDuration = (4 + Math.random() * 3) + 's';
+        heart.style.animationDuration = (10 + Math.random() * 5) + 's';
         container.appendChild(heart);
     }
 
@@ -397,7 +397,7 @@ function createFloatingHearts() {
             heart.className = 'floating-heart';
             heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
             heart.style.left = Math.random() * 100 + '%';
-            heart.style.animationDuration = (4 + Math.random() * 3) + 's';
+            heart.style.animationDuration = (10 + Math.random() * 5) + 's';
             container.appendChild(heart);
         }
     }, 3000);
@@ -405,7 +405,7 @@ function createFloatingHearts() {
 
 // Confetti effect
 function createConfetti(x, y) {
-    const confettiPieces = ['💕', '✨', '🎉', '💖', '🌸', '💝'];
+    const confettiPieces = ['💕', '✨', '🎉', '💖', '🌸', '💝', '⭐', '🌟', '💫', '🌺', '🎀', '🦋', '🌷', '🌹'];
 
     for (let i = 0; i < 8; i++) {
         const confetti = document.createElement('div');

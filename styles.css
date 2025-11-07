@@ -27,8 +27,9 @@ body {
 .floating-heart {
     position: absolute;
     font-size: 2em;
-    animation: floatUp 6s ease-in infinite;
-    opacity: 0.3;
+    animation: floatUp 12s ease-in infinite;
+    opacity: 0;
+    transform: translateY(100vh);
 }
 
 @keyframes floatUp {
