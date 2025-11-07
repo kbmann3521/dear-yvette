@@ -127,7 +127,7 @@ const gifts = [
     { emoji: "🐰", name: "A fluffy bunny" },
     { emoji: "🦋", name: "A beautiful butterfly" },
     { emoji: "🦄", name: "A magical unicorn" },
-    { emoji: "🐉", name: "A majestic dragon" },
+    { emoji: "���", name: "A majestic dragon" },
     { emoji: "🦢", name: "A graceful swan" },
     { emoji: "❤️", name: "All my love for you" },
     { emoji: "💝", name: "A gift wrapped with love" },
@@ -253,7 +253,7 @@ const jokes = [
     { setup: "Why did the math book look sad?", punchline: "Because it had too many problems! 📚" },
     { setup: "What do you call a dinosaur that crashes his car?", punchline: "Tyrannosaurus Wrecks! 🦖" },
     { setup: "Why don't skeletons fight each other?", punchline: "They don't have the guts! 💀" },
-    { setup: "What's orange and sounds like a parrot?", punchline: "A carrot! 🥕" },
+    { setup: "What's orange and sounds like a parrot?", punchline: "A carrot! ��" },
     { setup: "Why did the chicken go to the séance?", punchline: "To talk to the other side! 🐔" },
     { setup: "What did the ocean do to the other ocean?", punchline: "It waved again! 🌊" },
     { setup: "How do you organize a space party?", punchline: "You planet! 🚀" },
@@ -318,6 +318,25 @@ const fortunes = [
     "You are the author of your own destiny 📝"
 ];
 
+const crackBackMessages = [
+    { emoji: "🔄", message: "Lifting you up and giving that back a little love 💪✨" },
+    { emoji: "🔄", message: "Pop, pop - there goes that tension, one crack at a time 😌" },
+    { emoji: "🔄", message: "Nothing says 'I love you' like a perfectly timed back crack 💕" },
+    { emoji: "🔄", message: "Up in my arms where the magic happens 🫂✨" },
+    { emoji: "🔄", message: "Ahh, that satisfying back alignment moment 😌💫" },
+    { emoji: "🔄", message: "Picking you up is my favorite excuse to make your back feel better 💖" },
+    { emoji: "🔄", message: "The sound of your back cracking is music to my ears 🎵💕" },
+    { emoji: "🔄", message: "You deserve to feel loose and relaxed - here we go 🌟" },
+    { emoji: "🔄", message: "Up, up, and away - and maybe a crack or two 😄💪" },
+    { emoji: "🔄", message: "Being lifted high and feeling that relief - the best combo 💕🔄" },
+    { emoji: "🔄", message: "This is what a perfect boyfriend moment looks like right here 💘" },
+    { emoji: "🔄", message: "Bringing you up and that back relief along with it 🎉" },
+    { emoji: "🔄", message: "You in my arms = instant comfort and adjustment magic ✨💕" },
+    { emoji: "🔄", message: "Gentle lift, satisfying snap - your favorite thing 😌" },
+    { emoji: "🔄", message: "Let's get that spine feeling grateful 🙏💚" },
+    { emoji: "🔄", message: "The best hug is one that also cracks your back 🤗🔄" }
+];
+
 // DOM Elements
 const welcomeScreen = document.getElementById('welcomeScreen');
 const authScreen = document.getElementById('authScreen');
@@ -338,6 +357,7 @@ const affirmationBtn = document.getElementById('affirmationBtn');
 const jokeBtn = document.getElementById('jokeBtn');
 const breatheBtn = document.getElementById('breatheBtn');
 const fortuneBtn = document.getElementById('fortuneBtn');
+const crackBackBtn = document.getElementById('crackBackBtn');
 
 // Love Meter Tracking
 let loveLevel = 0;
@@ -462,6 +482,11 @@ function init() {
         createConfetti(e.clientX, e.clientY);
         updateLoveMeter();
         showFortune();
+    });
+    crackBackBtn.addEventListener('click', (e) => {
+        createConfetti(e.clientX, e.clientY);
+        updateLoveMeter();
+        showCrackBack();
     });
 }
 
@@ -632,6 +657,15 @@ function showFortune() {
             <p style="color: #333; font-size: 1.15em; line-height: 1.7; font-weight: 500;">"${randomFortune}"</p>
         </div>
         <p style="color: #999; font-size: 0.9em; margin-top: 20px;">✨ Believe in the magic within you</p>
+    `);
+}
+
+function showCrackBack() {
+    const randomCrackBack = crackBackMessages[Math.floor(Math.random() * crackBackMessages.length)];
+    showModalContent(`
+        <div class="crack-back-display">${randomCrackBack.emoji}</div>
+        <p class="crack-back-text">${randomCrackBack.emoji} ${randomCrackBack.message}</p>
+        <p style="color: #999; font-size: 0.9em; margin-top: 20px;">Ahhh, that's better 😌</p>
     `);
 }
 

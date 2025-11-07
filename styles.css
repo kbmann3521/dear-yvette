@@ -510,6 +510,32 @@ body {
     transition: all 4s ease-in-out;
 }
 
+/* Crack Back Display */
+.crack-back-display {
+    font-size: 4em;
+    margin: 30px 0;
+    animation: spin 1s ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.crack-back-text {
+    font-size: 1.2em;
+    color: #d4407a;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
 /* Love Meter */
 .love-meter-bar {
     width: 100%;
@@ -564,6 +590,26 @@ body {
         opacity: 0;
         transform: translate(var(--tx), var(--ty)) scale(0.5);
     }
+}
+
+/* Footer */
+.website-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 245, 247, 0.95);
+    border-top: 1px solid rgba(212, 64, 122, 0.2);
+    font-size: 0.9em;
+    color: #ff6b9d;
+    z-index: 100;
+}
+
+.website-footer p {
+    margin: 0;
+    font-weight: 500;
 }
 
 /* Responsive Design */
