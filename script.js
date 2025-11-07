@@ -157,7 +157,7 @@ const gifts = [
     { emoji: "🎸", name: "A beautiful guitar serenade" },
     { emoji: "🎭", name: "Front row seats to magic" },
     { emoji: "🌍", name: "The whole world on a platter" },
-    { emoji: "🏰", name: "A magical castle" },
+    { emoji: "��", name: "A magical castle" },
     { emoji: "🎢", name: "A thrilling adventure together" },
     { emoji: "🌟", name: "A wish upon a star" },
     { emoji: "💫", name: "All the dreams you have" },
@@ -363,14 +363,31 @@ const crackBackBtn = document.getElementById('crackBackBtn');
 let loveLevel = 0;
 
 function updateLoveMeter() {
-    loveLevel = Math.min(loveLevel + 10, 100);
+    loveLevel = Math.min(loveLevel + 20, 100);
     const loveMeterFill = document.getElementById('loveMeterFill');
     const loveMeterText = document.getElementById('loveMeterText');
+    const overloadMessage = document.getElementById('overloadMessage');
     if (loveMeterFill) {
         loveMeterFill.style.width = loveLevel + '%';
+        if (loveLevel === 100) {
+            loveMeterFill.classList.add('overloaded');
+        } else {
+            loveMeterFill.classList.remove('overloaded');
+        }
     }
     if (loveMeterText) {
-        loveMeterText.textContent = 'Love Level: ' + loveLevel + '%';
+        if (loveLevel === 100) {
+            loveMeterText.textContent = 'Love Level: 1000%';
+        } else {
+            loveMeterText.textContent = 'Love Level: ' + loveLevel + '%';
+        }
+    }
+    if (overloadMessage) {
+        if (loveLevel === 100) {
+            overloadMessage.classList.add('visible');
+        } else {
+            overloadMessage.classList.remove('visible');
+        }
     }
 }
 
