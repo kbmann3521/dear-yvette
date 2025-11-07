@@ -1,35 +1,35 @@
 // Data
 const cuteGreetings = [
-    "The world missed you",
-    "You're absolutely amazing",
-    "You light up the room",
-    "You're worthy of all the love",
-    "Today is brighter with you",
-    "You're the best part of my day",
-    "You deserve to smile",
-    "You're incredibly special",
-    "The universe loves you",
-    "You make everything better",
-    "I can't stop thinking about you",
-    "You're the most beautiful person I know",
-    "Every moment with you is a gift",
-    "My heart smiles when I see you",
-    "You're my favorite hello",
-    "Life is better with you in it",
-    "You complete me",
-    "I fall in love with you every day",
-    "You're my greatest adventure",
-    "My soul loves yours",
-    "You're my reason for everything",
-    "Being with you feels like home",
-    "You make my heart race",
-    "I cherish every second with you",
-    "You're the answer to my prayers",
-    "My love for you grows every day",
-    "You're irreplaceable and perfect",
-    "Your smile is my favorite thing",
-    "You're my greatest blessing",
-    "Every day with you is a dream come true"
+    "You are capable of amazing things",
+    "Your potential is limitless today",
+    "You deserve to celebrate your wins",
+    "You are stronger than you believe",
+    "Your voice matters and deserves to be heard",
+    "You are worthy of success",
+    "Every day you're growing and getting better",
+    "You bring out the best in those around you",
+    "Your hard work is paying off",
+    "You are allowed to be proud of yourself",
+    "You have everything you need within you",
+    "Your dreams are worth pursuing",
+    "You deserve to rest and take care of yourself",
+    "You are resilient and can overcome anything",
+    "Your contributions make a real difference",
+    "You are becoming the person you want to be",
+    "Your progress matters, no matter how small",
+    "You deserve kindness, especially from yourself",
+    "You are enough, right now, as you are",
+    "Your perspective is valuable and unique",
+    "You are learning and growing every day",
+    "You have the strength to face today",
+    "Your health and happiness are priorities",
+    "You deserve to pursue what makes you happy",
+    "You are building a beautiful life",
+    "Your authenticity is your superpower",
+    "You are allowed to change and grow",
+    "You deserve to set healthy boundaries",
+    "Your mental health matters",
+    "You are becoming who you're meant to be"
 ];
 
 const allStats = [
@@ -525,9 +525,26 @@ function createFloatingHearts() {
     const container = document.getElementById('floatingHeartsContainer');
     if (!container) return;
 
-    const hearts = ['🌸', '🌺', '🌷', '🌹', '🌻', '🌼', '🏵️', '🌿', '🦋', '🐝', '🐞', '🦗', '🦆', '🦉', '🐦', '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🦎', '🦜', '🦚', '🐢', '🐛', '🐿️', '🦭', '🦦', '🦛', '🦏', '🐘', '🦍', '🐵', '🦁', '🐯', '🦙', '🦒', '🐫', '🧸', '☁️', '🌙', '🌈', '🎀', '🎁'];
+    const hearts = [
+      // Flowers
+      '🌸', '🌺', '🌷', '🌹', '🌻', '🌼', '🏵️', '💐', '🌹', '🌸',
+      // Plants & Greenery
+      '🌿', '🌱', '🍀', '🌾', '🌵', '🌳', '🌲', '🍃', '🍂', '🍁', '🌴', '🎍', '🎋',
+      // Insects
+      '🦋', '🐝', '🐞', '🦗', '🐛', '🦂', '🕷️', '🪰', '🦟', '🐌', '🦠', '🪲', '🦗',
+      // Flying creatures
+      '🦆', '🦉', '🐦', '🦜', '🦚', '🦅', '🦇', '🪶', '🦢',
+      // Mammals
+      '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🐻', '🐻‍❄️', '🦁', '🐯', '🦝', '🦘', '🐄', '🐑', '🦎', '🐿️', '🦭', '🦦', '🦛', '🦏', '🐘', '🦍', '🐵', '🦁', '🦒', '🦙', '🐫', '🐶', '🐱', '🐭',
+      // Reptiles & Amphibians
+      '🐢', '🐸', '🦎',
+      // Moons & Celestial
+      '🌙', '🌚', '🌛', '🌜', '🌝', '✨', '💫', '⭐',
+      // Decorative
+      '🧸', '☁️', '🎀', '🎁', '🎈', '☀️'
+    ];
 
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 15; i++) {
         const heart = document.createElement('div');
         heart.className = 'floating-heart';
         heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
@@ -538,7 +555,7 @@ function createFloatingHearts() {
     }
 
     setInterval(() => {
-        if (container.children.length < 15) {
+        if (container.children.length < 35) {
             const heart = document.createElement('div');
             heart.className = 'floating-heart';
             heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
@@ -551,7 +568,16 @@ function createFloatingHearts() {
 
 // Confetti effect
 function createConfetti(x, y) {
-    const confettiPieces = ['🎉', '🌸', '🌺', '🎀', '🦋', '🌷', '🌹', '🌻', '🌼', '🐝', '🐞', '🦆', '🎁', '🌙', '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🐢', '🦭'];
+    const confettiPieces = [
+      '🎉', '🎊', '🌸', '🌺', '🌷', '🌹', '🌻', '🌼', '🏵️',
+      '🦋', '🐝', '🐞', '🦆', '🦉', '🐦', '🦜',
+      '🎀', '🎁', '🎈',
+      '🌙', '🌚', '🌛', '✨', '💫',
+      '🐨', '🐼', '🐰', '🦊', '🦝', '🦌', '🐢', '🦭',
+      '🌱', '🍀', '🌾', '🌿', '🍃', '🍂', '🍁',
+      '🐛', '🦗', '🦂', '🕷️', '🪰', '🦟', '🐌',
+      '🦒', '🦙', '🌳', '🌲'
+    ];
 
     for (let i = 0; i < 8; i++) {
         const confetti = document.createElement('div');
@@ -582,14 +608,17 @@ function init() {
     const randomGreeting = cuteGreetings[Math.floor(Math.random() * cuteGreetings.length)];
     greetingElement.textContent = randomGreeting;
 
-    // Rotate greeting with calming fade animation every 8 seconds
+    // Rotate greeting with fade out/in animation every 6 seconds
+    // The animation: fades out at 40-50%, text changes at 50%, fades in at 50-100%
     function cycleGreeting() {
         greetingIndex = (greetingIndex + 1) % cuteGreetings.length;
-        greetingElement.textContent = cuteGreetings[greetingIndex];
+        // Change text after fade out (at 3 second mark of 6 second animation)
+        setTimeout(() => {
+            greetingElement.textContent = cuteGreetings[greetingIndex];
+        }, 3000);
     }
 
-    cycleGreeting();
-    setInterval(cycleGreeting, 8000);
+    setInterval(cycleGreeting, 6000);
 
     createFloatingHearts();
 

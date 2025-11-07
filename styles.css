@@ -118,21 +118,22 @@ body {
     color: #ff6b9d;
     margin-bottom: 40px;
     font-style: italic;
-    animation: fadeInOut 8s ease-in-out infinite;
+    animation: fadeOutIn 6s ease-in-out infinite;
+    opacity: 1;
 }
 
-@keyframes fadeInOut {
+@keyframes fadeOutIn {
     0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
         opacity: 0;
-    }
-    15% {
-        opacity: 1;
-    }
-    85% {
-        opacity: 1;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
     }
 }
 
