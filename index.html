@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Yvette 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="floating-hearts" id="floatingHeartsContainer"></div>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <div class="welcome-content">
+                <h1 class="welcome-title">Welcome back, Yvette! 💕</h1>
+                <p class="welcome-greeting" id="greeting"></p>
+                <button class="sad-button" id="sadButton">click this when you're sad</button>
+            </div>
+        </div>
+
+        <!-- Authentication Loading Screen -->
+        <div id="authScreen" class="screen">
+            <div class="auth-content">
+                <div class="auth-message" id="authMessage">Authenticating perfect boyfriend module…</div>
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="stats-container" id="statsContainer"></div>
+            </div>
+        </div>
+
+        <!-- Dashboard Screen -->
+        <div id="dashboardScreen" class="screen">
+            <div class="dashboard-content">
+                <h2 class="dashboard-title">Your Perfect Boyfriend Dashboard 💘</h2>
+                <div class="love-meter-bar">
+                    <div class="love-meter-fill" id="loveMeterFill">
+                        <span class="love-meter-text" id="loveMeterText">Love Level</span>
+                    </div>
+                </div>
+                <p class="dashboard-subtitle">Click the buttons and fill your love meter 💕</p>
+                <div class="dashboard-buttons">
+                    <button class="dashboard-btn compliment-btn" id="complimentBtn">
+                        <span class="btn-icon">💬</span>
+                        <span class="btn-text">Request a Compliment</span>
+                    </button>
+                    <button class="dashboard-btn affirmation-btn" id="affirmationBtn">
+                        <span class="btn-icon">✨</span>
+                        <span class="btn-text">Your Affirmations</span>
+                    </button>
+                    <button class="dashboard-btn fortune-btn" id="fortuneBtn">
+                        <span class="btn-icon">🎴</span>
+                        <span class="btn-text">Write Your Fortune</span>
+                    </button>
+                    <button class="dashboard-btn gift-btn" id="giftBtn">
+                        <span class="btn-icon">🎁</span>
+                        <span class="btn-text">Receive a Gift</span>
+                    </button>
+                    <button class="dashboard-btn cuddle-btn" id="cuddleBtn">
+                        <span class="btn-icon">🤗</span>
+                        <span class="btn-text">Summon a Cuddle</span>
+                    </button>
+                    <button class="dashboard-btn joke-btn" id="jokeBtn">
+                        <span class="btn-icon">😂</span>
+                        <span class="btn-text">Tell Me a Joke</span>
+                    </button>
+                    <button class="dashboard-btn breathe-btn" id="breatheBtn">
+                        <span class="btn-icon">🧘</span>
+                        <span class="btn-text">Breathe With Me</span>
+                    </button>
+                </div>
+                <button class="back-btn" id="backBtn">← Go Back</button>
+            </div>
+        </div>
+
+        <!-- Modal for displaying content -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
