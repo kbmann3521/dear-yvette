@@ -75,6 +75,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    overflow-y: auto;
+    padding: 20px 0;
 }
 
 @keyframes fadeIn {
@@ -276,27 +278,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-bottom: 20px;
-    max-height: 400px;
-    overflow-y: auto;
-    padding-right: 10px;
-}
-
-.dashboard-buttons::-webkit-scrollbar {
-    width: 6px;
-}
-
-.dashboard-buttons::-webkit-scrollbar-track {
-    background: #f0f0f0;
-    border-radius: 10px;
-}
-
-.dashboard-buttons::-webkit-scrollbar-thumb {
-    background: #ff6b9d;
-    border-radius: 10px;
-}
-
-.dashboard-buttons::-webkit-scrollbar-thumb:hover {
-    background: #d4407a;
 }
 
 .dashboard-btn {
